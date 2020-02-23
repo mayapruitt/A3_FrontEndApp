@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const $locationButton = document.querySelector(".location-button");
     const $issButton = document.querySelector(".iss-pass-button");
     const $cityInput = document.querySelector("#cityInput");
+    let $passinfo = document.querySelector(".passinfo");
 
 
 
@@ -39,14 +40,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 passes.forEach(item => {
                     let unixtimestamp = item.startUTC;
                     var date = new Date(unixtimestamp * 1000);
-                    console.log(date);
+                    $passinfo.textContent = date;
+              
                 });
-
-
-
-
-
-
 
             } catch (err) {
                 console.log(err);
