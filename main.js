@@ -41,15 +41,17 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 let passes = ISSresult.passes;
 
                 console.log(passes);
-                /*for every ISS pass, access the UTC start time. 
-                Convert the unix time stamp to human readable time in 00:00 format*/
+                
                 // passes.forEach(item => {
                 //     let unixtimestamp = item.startUTC;
                 //     let date = new Date(unixtimestamp * 1000); //to calibrate to current year
                 //     console.log(date);
                 //     $passinfo.textContent = date;
                 // });
-
+                
+                /*for every ISS pass, access the UTC start time. 
+                Convert the unix time stamp to human readable time in 00:00 format
+                Display the value of the first index in the array beacuse this is the ISS pass that occurs soonest*/
                 let unixtimestamp = passes[0].startUTC;
                 let date = new Date(unixtimestamp * 1000);
                 $passinfo.textContent = date;

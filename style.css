@@ -1,4 +1,10 @@
+*.debug{
+   border: 1px solid red;
+}
+
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
   }
   
@@ -7,7 +13,96 @@
   }
   
   body {
-    font-family: 'Courier New', Courier, monospace;
+    /*font-family: Montserrat;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
   }
   
   /* Add your CSS Styles Here */
+
+  .title{
+    /*position: absolute;
+    width: 599px;
+    height: 128px;
+    left: 57px;
+    top: 172px;*/
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 109.714px;
+    line-height: 134px;
+
+    color: #F5EAD6;
+
+  }
+
+  .subtitle{
+    /*position: absolute;
+    width: 1326px;
+    height: 61px;
+    left: 57px;
+    top: 321px;*/
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: #01ADEF;
+
+  }
+
+  .instructions{
+    /*position: absolute;
+width: 270px;
+height: 44px;
+left: 57px;
+top: 364px;*/
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 35.9908px;
+line-height: 44px;
+/* identical to box height */
+
+color: #01ADEF;
+
+  }
+
+  .nextpass{
+    /*position: absolute;
+width: 345px;
+height: 43px;
+left: 52px;
+top: 538px;*/
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+
+color: #01ADEF;
+
+  }
+
+  .passinfo{
+    /*position: absolute;
+width: 1316px;
+height: 121px;
+left: 57px;
+top: 533px;*/
+
+font-family: Inconsolata;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 58px;
+
+color: #F5EAD6;
+  }
