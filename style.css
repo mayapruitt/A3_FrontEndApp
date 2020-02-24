@@ -7,13 +7,13 @@
     margin: 0;
     box-sizing: border-box;
     border: none;
-  }
-  
-  html {
+}
+
+html {
     font-size: 35px;
-  }
-  
-  body {
+}
+
+body {
     /*font-family: Montserrat;*/
     font-style: normal;
     font-weight: lighter;
@@ -23,30 +23,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: inherit;
-  }
-  
-  /* Add your CSS Styles Here */
+}
 
- .title{
-    /*position: absolute;
-    width: 599px;
-    height: 128px;
-    left: 57px;
-    top: 172px;*/
+
+/* Add your CSS Styles Here */
+
+.title {
     margin-top: 17vh;
     margin-left: 4vw;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
     font-size: 3.2rem;
     /*line-height: 134px;*/
-
     color: #F5EAD6;
+}
 
-  }
-
-  .subtitle{
+.subtitle {
     margin-left: 4vw;
     padding-top: 1rem;
     font-family: Montserrat;
@@ -54,55 +47,46 @@
     font-weight: normal;
     font-size: 1rem;
     line-height: 43px;
-
     color: #01ADEF;
+}
 
-  }
+.instructions {
+    margin-left: 4vw;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35.9908px;
+    line-height: 44px;
+    color: #01ADEF;
+}
 
-  .instructions{
-    /*position: absolute;
-width: 270px;
-height: 44px;
-left: 57px;
-top: 364px;*/
-margin-left: 4vw;
-padding-top: .5rem;
-padding-bottom: 1rem;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 35.9908px;
-line-height: 44px;
-/* identical to box height */
-
-color: #01ADEF;
-
-  }
-
-  .inputs__cityInput{
+.inputs__cityInput {
     width: 35%;
     height: 5%;
     padding: .15rem;
     margin-left: 4vw;
     box-sizing: border-box;
-    background-color:  #161616;
+    background-color: #161616;
     border: 3px solid #10466A;
     font-family: Inconsolata;
     font-weight: bold;
     text-align: center;
-    color:  #F5EAD6;
+    color: #F5EAD6;
     font-size: 2rem;
-  }
+}
 
-  .inputs__cityInput:focus {
+.inputs__cityInput:focus {
     outline: none;
-  }
+}
 
-  .inputs{
+.inputs {
     display: flex;
     flex-direction: row;
-  }
-  .inputs__ISSbutton{
+}
+
+.inputs__ISSbutton {
     background-color: #10466A;
     border: none;
     color: #F5EAD6;
@@ -117,59 +101,78 @@ color: #01ADEF;
     font-style: normal;
     transition-duration: 0.2s;
     outline: none;
-  }
-  
-  .inputs__ISSbutton:hover {
+}
+
+.inputs__ISSbutton:hover {
     /*border: 3px solid #01ADEF;*/
     opacity: 0.5;
     outline: none;
-  }
+}
 
-  /*.ISSbutton:focus{
-    background-color: #10466A;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }*/
+.nextpass {
+    margin-left: 4vw;
+    padding-top: 1rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #01ADEF;
+}
 
-  .nextpass{
-    /*position: absolute;
-width: 345px;
-height: 43px;
-left: 52px;
-top: 538px;*/
-margin-left: 4vw;
-padding-top: 1rem;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 35px;
-line-height: 43px;
-/* identical to box height */
+.passinfo {
+    margin-left: 4vw;
+    padding-top: .5rem;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #F5EAD6;
+}
 
-color: #01ADEF;
 
-  }
+/* Styling for mobile below*/
 
-  .passinfo{
-    /*position: absolute;
-width: 1316px;
-height: 121px;
-left: 57px;
-top: 533px;*/
-margin-left: 4vw;
-padding-top: .5rem;
-font-family: Inconsolata;
-font-style: normal;
-font-weight: bold;
-font-size: 55px;
-line-height: 58px;
-
-color: #F5EAD6;
-  }
-
-  
+@media screen and (max-width: 700px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    body {
+        background-image: url(Assets/bkg_mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: inherit;
+    }
+    .title {
+        font-size: 2.5rem;
+        margin-top: 10vh;
+    }
+    .subtitle {
+        font-size: .9rem;
+    }
+    .instructions {
+        font-size: .9rem;
+    }
+    .inputs {
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs__cityInput {
+        width: 75%;
+        font-size: 1.5rem;
+    }
+    .inputs__ISSbutton {
+        width: 75%;
+        margin-top: .5rem;
+        margin-left: 4vw;
+        padding: .65rem;
+    }
+    .nextpass {
+        font-size: .9rem;
+    }
+    .passinfo {
+        font-size: 1.5rem;
+    }
+}
