@@ -5,8 +5,8 @@ This site lets users enter the name of a city and returns the date and time for 
 
 You can visit this site at any time here on [glitch.](https://pruitt-a3-frontendapp-iss.glitch.me)
 
-It may take a while to receive information from space. Please be patient :)
-(Best results in Google Chrome.)
+Depending on your internet connection it may take a while to receive information from space. Please be patient :)
+(Best results in Google Chrome).
 
 If you want to run the project locally, follow the steps below:
 
