@@ -6,16 +6,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: none;
   }
   
   html {
-    font-size: 16px;
+    font-size: 35px;
   }
   
   body {
     /*font-family: Montserrat;*/
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 35px;
     /*background-color: #161616;*/
     background-image: url(Assets/background.png);
@@ -30,28 +31,26 @@
     height: 128px;
     left: 57px;
     top: 172px;*/
+    margin-top: 17vh;
+    margin-left: 4vw;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
-    font-size: 109.714px;
-    line-height: 134px;
+    font-size: 3.2rem;
+    /*line-height: 134px;*/
 
     color: #F5EAD6;
 
   }
 
   .subtitle{
-    /*position: absolute;
-    width: 1326px;
-    height: 61px;
-    left: 57px;
-    top: 321px;*/
-
+    margin-left: 4vw;
+    padding-top: 1rem;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 35px;
+    font-size: 1rem;
     line-height: 43px;
 
     color: #01ADEF;
@@ -64,7 +63,8 @@ width: 270px;
 height: 44px;
 left: 57px;
 top: 364px;*/
-
+margin-left: 4vw;
+padding-bottom: 1rem;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -79,7 +79,7 @@ color: #01ADEF;
   .cityInput{
     width: 15%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-left: 4vw;
     box-sizing: border-box;
     background-color:  #161616;
     border: 3px solid #10466A;
@@ -131,7 +131,8 @@ width: 345px;
 height: 43px;
 left: 52px;
 top: 538px;*/
-
+margin-left: 4vw;
+padding-top: 1rem;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -149,7 +150,7 @@ width: 1316px;
 height: 121px;
 left: 57px;
 top: 533px;*/
-
+margin-left: 4vw;
 font-family: Inconsolata;
 font-style: normal;
 font-weight: bold;
