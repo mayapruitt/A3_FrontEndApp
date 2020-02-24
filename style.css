@@ -1,4 +1,4 @@
-/**.debug{
+/*.debug{
    border: 1px solid red;
 }*/
 
@@ -20,6 +20,9 @@
     font-size: 35px;
     /*background-color: #161616;*/
     background-image: url(Assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: inherit;
   }
   
   /* Add your CSS Styles Here */
@@ -64,6 +67,7 @@ height: 44px;
 left: 57px;
 top: 364px;*/
 margin-left: 4vw;
+padding-top: .5rem;
 padding-bottom: 1rem;
 font-family: Montserrat;
 font-style: normal;
@@ -76,39 +80,47 @@ color: #01ADEF;
 
   }
 
-  .cityInput{
-    width: 15%;
-    padding: 12px 20px;
+  .inputs__cityInput{
+    width: 35%;
+    height: 5%;
+    padding: .15rem;
     margin-left: 4vw;
     box-sizing: border-box;
     background-color:  #161616;
     border: 3px solid #10466A;
     font-family: Inconsolata;
-    font-style: bold;
+    font-weight: bold;
+    text-align: center;
     color:  #F5EAD6;
-    font-size: 24px;
+    font-size: 2rem;
   }
 
-  .cityInput:focus {
+  .inputs__cityInput:focus {
     outline: none;
   }
 
-  .ISSbutton{
+  .inputs{
+    display: flex;
+    flex-direction: row;
+  }
+  .inputs__ISSbutton{
     background-color: #10466A;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: #F5EAD6;
+    margin-left: .5rem;
+    padding: .85rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    width: 20%;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: .75rem;
     font-style: normal;
     transition-duration: 0.2s;
     outline: none;
   }
   
-  .ISSbutton:hover {
+  .inputs__ISSbutton:hover {
     /*border: 3px solid #01ADEF;*/
     opacity: 0.5;
     outline: none;
@@ -151,6 +163,7 @@ height: 121px;
 left: 57px;
 top: 533px;*/
 margin-left: 4vw;
+padding-top: .5rem;
 font-family: Inconsolata;
 font-style: normal;
 font-weight: bold;
