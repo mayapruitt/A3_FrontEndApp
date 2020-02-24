@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
 
     const $button = document.querySelector(".ISSbutton");
-    const $cityInput = document.querySelector("#cityInput");
+    const $cityInput = document.querySelector(".cityInput");
     let $passinfo = document.querySelector(".passinfo");
 
     //let city = $cityInput.value;

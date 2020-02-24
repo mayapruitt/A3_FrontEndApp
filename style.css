@@ -1,6 +1,6 @@
-*.debug{
+/**.debug{
    border: 1px solid red;
-}
+}*/
 
 * {
     padding: 0;
@@ -17,11 +17,14 @@
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
+    /*background-color: #161616;*/
+    background-image: url(Assets/background.png);
   }
   
   /* Add your CSS Styles Here */
 
-  .title{
+ 
+ .title{
     /*position: absolute;
     width: 599px;
     height: 128px;
@@ -73,6 +76,55 @@ color: #01ADEF;
 
   }
 
+  .cityInput{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:  #161616;
+    border: 3px solid #10466A;
+    font-family: Inconsolata;
+    font-style: bold;
+    color:  #F5EAD6;
+    font-size: 24px;
+  }
+
+  .cityInput:focus {
+    outline: none;
+  }
+
+  .ISSbutton{
+    background-color: #10466A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    transition-duration: 0.2s;
+    outline: none;
+  }
+  
+  .ISSbutton:hover {
+    /*border: 3px solid #01ADEF;*/
+    opacity: 0.5;
+    outline: none;
+  }
+
+  /*.ISSbutton:focus{
+    background-color: #10466A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }*/
+
   .nextpass{
     /*position: absolute;
 width: 345px;
@@ -106,3 +158,5 @@ line-height: 58px;
 
 color: #F5EAD6;
   }
+
+  
