@@ -33,11 +33,11 @@ Instantly, I knew I would like to have users input a city and discover when the 
 
 A quick sketch helped map out the elements for the web design -- Mainly a title, some sort of instructions, a input box where users could type, a button that would call the API(s), and text to display the response. This element would need to update depending on user interation. 
 
-{sketch}
+![sketch](https://github.com/mayapruitt/A3_FrontEndApp/blob/master/documentation/outline.JPG)
 
 This low fidelity handwritten verision was then transferred to a higher fideltiy digital verision using [Figma](https://www.figma.com/file/NCLBf8lVW6XSRqXC3nKzbl/Design?node-id=0%3A1), which I was trying for the first time. In efforts to keep things simple, the design planned for only one page with minimal text and intuitive keyboard/mouse interactions. 
 
-{digital wireframe}
+![digital wireframe](https://github.com/mayapruitt/A3_FrontEndApp/blob/master/documentation/wireframe.png)
 
 ## Development
 
@@ -65,22 +65,22 @@ I went down a bit of a rabbit hole looking into this error and no-cors methods, 
 
 Once the basic functionality was in place, the website looked like my basic wireframe. Now it was time to approach the visual design. Using pinterest I gathered images of space themed aesthetics. I looked at graphic block prints for color palette and font inspiration.
 
-{moodboard pic}
+![moodboard image](https://github.com/mayapruitt/A3_FrontEndApp/blob/master/documentation/moodboard.png)
 
 ## Design 
 
 I went through a few iterations of design, playing with more realistic imagery, silouhettes, and night sky scenes.
 Posters designed for the hisotric space robotics missions were especially beautiful, so I decided to model my site after those. The chosen fonts were legible with a scifi or computerized feel. 
 
-{iterations}
+![iterations](https://github.com/mayapruitt/A3_FrontEndApp/blob/master/documentation/iterations.png)
 
 I created a background image of a night sky and experimented with which elements looked best in certain colors and fonts. 
 
-{style guide}
+![style guide](https://github.com/mayapruitt/A3_FrontEndApp/blob/master/documentation/styleguide.png)
 
 This became the final design:
 
-{final}
+![final](https://github.com/mayapruitt/A3_FrontEndApp/blob/master/documentation/finaldesign.png)
 
 ## CSS Styling
 
